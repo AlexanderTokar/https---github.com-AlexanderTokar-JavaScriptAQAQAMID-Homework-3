@@ -20,6 +20,7 @@
         "eslint": "^8.30.0"
     },
     "devDependencies": {
+        "jest": "^29.3.1",
         "prettier": "2.8.1"
     }
 }
