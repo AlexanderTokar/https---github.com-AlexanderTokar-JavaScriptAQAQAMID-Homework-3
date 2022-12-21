@@ -1,6 +1,5 @@
 const { chromium } = require('playwright');
-const userName = require('../user.js');
-const password = require('../user.js');
+const { userName, password } = require('../user.js');
 
 const { test, expect } = require('@playwright/test');
 
