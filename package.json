@@ -1,26 +1,32 @@
 {
-    "name": "homework-3-v2",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
-    "scripts": {
-        "test": "npx jest",
-        "eslint": "eslint",
-        "prettier": "prettier",
-        "coverage": "jest --collectCoverage"
-    },
-    "author": "",
-    "license": "ISC",
-    "coverageThreshold": {
-        "branches": 100,
-        "functions": 100,
-        "lines": 100
-    },
-    "dependencies": {
-        "eslint": "^8.30.0"
-    },
-    "devDependencies": {
-        "jest": "^29.3.1",
-        "prettier": "2.8.1"
-    }
+  "name": "homework-3-v2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "eslint": "eslint",
+    "prettier": "prettier",
+    "coverage": "jest --collectCoverage"
+  },
+  "author": "",
+  "license": "ISC",
+  "coverageThreshold": {
+    "branches": 100,
+    "functions": 100,
+    "lines": 100
+  },
+  "jest": {
+    "verbose": true
+  },
+  "devtools": true,
+  "dependencies": {
+    "eslint": "^8.30.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.29.0",
+    "jest": "^29.3.1",
+    "playwright": "^1.29.0",
+    "prettier": "2.8.1"
+  }
 }
