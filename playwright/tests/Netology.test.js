@@ -15,7 +15,8 @@ test('successful authorizationtest', async () => {
     await page.getByPlaceholder('Пароль').fill(password);
     await page.getByTestId('login-submit-btn').click();
 
-    await expect(page.url()).toBe('https://netology.ru/profile');
+    await expect(page).toHaveURL('https://netology.ru/profile');
+    //await expect(page.url()).toBe('https://netology.ru/profile');
 
     await browser.close();
 });

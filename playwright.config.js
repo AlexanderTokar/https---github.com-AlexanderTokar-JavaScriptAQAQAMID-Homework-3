@@ -14,7 +14,7 @@ const { devices } = require('@playwright/test');
 const config = {
     testDir: './playwright/tests',
     /* Maximum time one test can run for. */
-    timeout: 70 * 1000,
+    timeout: 80 * 1000,
     expect: {
         /**
          * Maximum time expect() should wait for the condition to be met.
